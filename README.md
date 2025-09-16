@@ -1,6 +1,6 @@
 # 💫 About Me:
 
-&nbsp;&nbsp;&nbsp;🎓 1st-year Computer Engineering student at Polytech Tours <br>
+&nbsp;&nbsp;&nbsp;🎓 2nd-year Computer Engineering student at Polytech Tours <br>
 
 &nbsp;&nbsp;&nbsp;💻 Technical Skills:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Frontend: HTML, CSS, JavaScript – capable of building responsive and dynamic web interfaces<br>
