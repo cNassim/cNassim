@@ -162,21 +162,7 @@ PS C:\Users\cNassim> Get-Education | Format-List
   Activités : Président Club International · Responsable Communication
 ```
 
----
 
-<!-- ▸ GITHUB STATS -->
-<div align="center">
-
-```powershell
-PS C:\Users\cNassim> Measure-GitHubActivity
-```
-
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=cNassim&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=21262d&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&count_private=true&hide_border=false"/>
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cNassim&layout=compact&theme=github_dark&bg_color=0d1117&border_color=21262d&title_color=58a6ff&text_color=8b949e&hide_border=false"/>
-
-</div>
-
----
 
 <!-- ▸ STREAK -->
 <div align="center">
