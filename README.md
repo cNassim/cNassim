@@ -191,14 +191,14 @@ PS C:\Users\cNassim> Get-ContributionStreak
 
 ---
 
-<!-- ▸ ACTIVITY GRAPH -->
+<!-- ▸ CONTRIBUTION GRID -->
 <div align="center">
 
 ```powershell
-PS C:\Users\cNassim> Get-ActivityGraph -Theme dark
+PS C:\Users\cNassim> Get-ContributionGrid
 ```
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cNassim&bg_color=0d1117&color=58a6ff&line=3fb950&point=4ec9b0&area=true&area_color=1f6feb&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://ghchart.rshah.org/3fb950/cNassim" alt="cNassim GitHub contribution grid" width="100%"/>
 
 </div>
 
