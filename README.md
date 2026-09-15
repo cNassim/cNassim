@@ -191,14 +191,14 @@ PS C:\Users\cNassim> Get-ContributionStreak
 
 ---
 
-<!-- ▸ TROPHIES -->
+<!-- ▸ ACTIVITY GRAPH -->
 <div align="center">
 
 ```powershell
-PS C:\Users\cNassim> Get-Trophies
+PS C:\Users\cNassim> Get-ActivityGraph -Theme dark
 ```
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=cNassim&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cNassim&bg_color=0d1117&color=58a6ff&line=3fb950&point=4ec9b0&area=true&area_color=1f6feb&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
