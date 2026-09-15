@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="335" viewBox="0 0 790 335">
+  <defs>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace; font-size: 13px; }
+      @keyframes blink { 0%,49%{ opacity:1 } 50%,100%{ opacity:0 } }
+      .cur { animation: blink 0.75s step-end infinite; }
+    </style>
+
+    <!-- ClipPath: typing command 1 -->
+    <clipPath id="cp1">
+      <rect x="18" y="52" height="22">
+        <animate attributeName="width" dur="13s" repeatCount="indefinite"
+                 values="0;0;650;650" keyTimes="0;0.023;0.154;1"/>
+      </rect>
+    </clipPath>
+
+    <!-- ClipPath: typing command 2 -->
+    <clipPath id="cp2">
+      <rect x="18" y="185" height="22">
+        <animate attributeName="width" dur="13s" repeatCount="indefinite"
+                 values="0;0;385;385" keyTimes="0;0.346;0.408;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Terminal background -->
+  <rect width="790" height="335" rx="10" ry="10" fill="#0D1117"/>
+
+  <!-- Title bar -->
+  <rect width="790" height="33" rx="10" ry="10" fill="#161B22"/>
+  <rect y="23" width="790" height="10" fill="#161B22"/>
+  <line x1="0" y1="33" x2="790" y2="33" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="20" cy="17" r="5.5" fill="#FF5F57"/>
+  <circle cx="38" cy="17" r="5.5" fill="#FEBC2E"/>
+  <circle cx="56" cy="17" r="5.5" fill="#28C840"/>
+
+  <!-- Window title -->
+  <text x="395" y="22" text-anchor="middle" fill="#484F58"
+        font-size="12" font-family="Consolas, monospace">Windows PowerShell — Nassim BELLANAYA</text>
+
+  <!-- ─── COMMAND 1 ─── -->
+  <text class="mono" y="70" clip-path="url(#cp1)">
+    <tspan x="18" fill="#569CD6">PS </tspan><tspan fill="#CE9178">C:\Users\cNassim</tspan><tspan fill="#C9D1D9">&gt; </tspan><tspan fill="#DCDCAA">Initialize-Profile</tspan><tspan fill="#9CDCFE"> -Verbose</tspan>
+  </text>
+
+  <!-- OUTPUT 1 -->
+  <text class="mono" x="18" y="93">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.169;0.185;1"/>
+    <tspan fill="#569CD6">[</tspan><tspan fill="#4EC9B0">&gt;&gt;</tspan><tspan fill="#569CD6">]</tspan><tspan fill="#8B949E"> Loading stack</tspan><tspan fill="#569CD6">...</tspan>
+  </text>
+
+  <!-- Python -->
+  <text class="mono" x="40" y="114">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.208;0.223;1"/>
+    <tspan fill="#3FB950">✓ </tspan><tspan fill="#C9D1D9">Python      </tspan><tspan fill="#7EE787">3.12    </tspan><tspan fill="#484F58">│ </tspan><tspan fill="#6E7681">Backend · ML · Scripts</tspan>
+  </text>
+
+  <!-- React -->
+  <text class="mono" x="40" y="133">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.238;0.254;1"/>
+    <tspan fill="#3FB950">✓ </tspan><tspan fill="#C9D1D9">React       </tspan><tspan fill="#7EE787">18.2    </tspan><tspan fill="#484F58">│ </tspan><tspan fill="#6E7681">Frontend · Portfolio · SPA</tspan>
+  </text>
+
+  <!-- Django -->
+  <text class="mono" x="40" y="152">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.269;0.285;1"/>
+    <tspan fill="#3FB950">✓ </tspan><tspan fill="#C9D1D9">Django      </tspan><tspan fill="#7EE787">5.0     </tspan><tspan fill="#484F58">│ </tspan><tspan fill="#6E7681">Web · API REST · Fullstack</tspan>
+  </text>
+
+  <!-- Docker -->
+  <text class="mono" x="40" y="171">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.300;0.315;1"/>
+    <tspan fill="#3FB950">✓ </tspan><tspan fill="#C9D1D9">Docker      </tspan><tspan fill="#7EE787">24.0    </tspan><tspan fill="#484F58">│ </tspan><tspan fill="#6E7681">Containers · Déploiement · CI/CD</tspan>
+  </text>
+
+  <!-- ─── COMMAND 2 ─── -->
+  <text class="mono" y="203" clip-path="url(#cp2)">
+    <tspan x="18" fill="#569CD6">PS </tspan><tspan fill="#CE9178">C:\Users\cNassim</tspan><tspan fill="#C9D1D9">&gt; </tspan><tspan fill="#DCDCAA">Get-UserInfo</tspan>
+  </text>
+
+  <!-- OUTPUT 2 -->
+  <!-- Name -->
+  <text class="mono" x="18" y="229">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.423;0.438;1"/>
+    <tspan fill="#79C0FF">Name    </tspan><tspan fill="#8B949E">: </tspan><tspan fill="#CE9178">Nassim BELLANAYA</tspan>
+  </text>
+
+  <!-- Role -->
+  <text class="mono" x="18" y="249">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.454;0.469;1"/>
+    <tspan fill="#79C0FF">Role    </tspan><tspan fill="#8B949E">: </tspan><tspan fill="#CE9178">Élève Ingénieur · Polytech Tours</tspan>
+  </text>
+
+  <!-- Focus -->
+  <text class="mono" x="18" y="269">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.485;0.500;1"/>
+    <tspan fill="#79C0FF">Focus   </tspan><tspan fill="#8B949E">: </tspan><tspan fill="#CE9178">Web Dev · Systèmes · Sécurité</tspan>
+  </text>
+
+  <!-- Status -->
+  <text class="mono" x="18" y="289">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.515;0.531;1"/>
+    <tspan fill="#79C0FF">Status  </tspan><tspan fill="#8B949E">: </tspan><tspan fill="#4EC9B0">Recherche Stage PFE → Fév 2027 🚀</tspan>
+  </text>
+
+  <!-- ─── FINAL PROMPT + CURSOR ─── -->
+  <g>
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.562;0.577;1"/>
+    <text class="mono" y="316">
+      <tspan x="18" fill="#569CD6">PS </tspan>
+      <tspan fill="#CE9178">C:\Users\cNassim</tspan>
+      <tspan fill="#C9D1D9">&gt; </tspan>
+    </text>
+    <!-- cursor: x = 18 + (PS =23 + C:\Users\cNassim=125 + > =16) -->
+    <rect x="182" y="303" width="8" height="14" fill="#4EC9B0" class="cur"/>
+  </g>
+
+  <!-- ─── CLEAR SCREEN OVERLAY ─── -->
+  <rect width="790" height="335" rx="10" ry="10" fill="#0D1117">
+    <animate attributeName="opacity" dur="13s" repeatCount="indefinite"
+             values="0;0;1;1" keyTimes="0;0.846;0.885;1"/>
+  </rect>
+</svg>
